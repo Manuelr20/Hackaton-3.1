@@ -1,0 +1,36 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body {
+	background: #f8f9fa;
+	min-height: 100vh;
+	font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.home-hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.dashboard-hero {
+	min-height: 80vh;
+}
+
+/* Cards y botones */
+.card {
+	border-radius: 1rem;
+}
+.btn-info, .btn-warning {
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+
+/* Animaciones personalizadas */
+.animate__fadeInUp {
+	--animate-duration: 0.8s;
+}
+.animate__fadeInDown {
+	--animate-duration: 0.7s;
+}
