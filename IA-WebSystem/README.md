@@ -15,28 +15,23 @@ Aplicación web fullstack con frontend en React + TypeScript y backend en Node.j
 
 ## ¿Cómo ejecutar el proyecto localmente?
 
-### 1. Clona el repositorio
-```bash
-git clone <url-del-repo>
-cd IA-WebSystem
-```
 
-### 2. Instala dependencias
+### 1. Instala dependencias
 ```bash
 cd backend && npm install
 cd ../frontend && npm install
 ```
 
-### 3. Configura variables de entorno
+### 2. Configura variables de entorno
 Copia `.env.example` a `.env` en `/backend` y ajusta los valores.
 
-### 4. Ejecuta el backend
+### 3. Ejecuta el backend
 ```bash
 cd backend
 npm run dev
 ```
 
-### 5. Ejecuta el frontend
+### 4. Ejecuta el frontend
 ```bash
 cd frontend
 npm start
